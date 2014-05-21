@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDF3FFBA19176C85005BD9E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDF3FFB919176C85005BD9E9 /* Foundation.framework */; };
+		FDF3FFBC19176C85005BD9E9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDF3FFBB19176C85005BD9E9 /* CoreGraphics.framework */; };
+		FDF3FFBE19176C85005BD9E9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDF3FFBD19176C85005BD9E9 /* UIKit.framework */; };
+		FDF3FFC419176C85005BD9E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDF3FFC219176C85005BD9E9 /* InfoPlist.strings */; };
+		FDF3FFC619176C85005BD9E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF3FFC519176C85005BD9E9 /* main.m */; };
+		FDF3FFCA19176C85005BD9E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF3FFC919176C85005BD9E9 /* AppDelegate.m */; };
+		FDF3FFCD19176C85005BD9E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDF3FFCB19176C85005BD9E9 /* Main.storyboard */; };
+		FDF3FFD019176C85005BD9E9 /* GeoCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF3FFCF19176C85005BD9E9 /* GeoCodeViewController.m */; };
+		FDF3FFD319176C85005BD9E9 /* LocationManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF3FFD219176C85005BD9E9 /* LocationManagerViewController.m */; };
+		FDF3FFD519176C85005BD9E9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDF3FFD419176C85005BD9E9 /* Images.xcassets */; };
+		FDF3FFDC19176C85005BD9E9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDF3FFDB19176C85005BD9E9 /* XCTest.framework */; };
+		FDF3FFDD19176C85005BD9E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDF3FFB919176C85005BD9E9 /* Foundation.framework */; };
+		FDF3FFDE19176C85005BD9E9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDF3FFBD19176C85005BD9E9 /* UIKit.framework */; };
+		FDF3FFE619176C85005BD9E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDF3FFE419176C85005BD9E9 /* InfoPlist.strings */; };
+		FDF3FFE819176C85005BD9E9 /* CMPE277_IosLocationPlotterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF3FFE719176C85005BD9E9 /* CMPE277_IosLocationPlotterTests.m */; };
+		FDF3FFF21917755D005BD9E9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDF3FFF11917755D005BD9E9 /* MapKit.framework */; };
+		FDF3FFF419177565005BD9E9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDF3FFF319177565005BD9E9 /* CoreLocation.framework */; };
+		FDF3FFF719177570005BD9E9 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDF3FFF519177570005BD9E9 /* AddressBook.framework */; };
+		FDF3FFF819177570005BD9E9 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDF3FFF619177570005BD9E9 /* AddressBookUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDF3FFDF19176C85005BD9E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDF3FFAE19176C85005BD9E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDF3FFB519176C85005BD9E9;
+			remoteInfo = "CMPE277-IosLocationPlotter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDF3FFB619176C85005BD9E9 /* CMPE277-IosLocationPlotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CMPE277-IosLocationPlotter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDF3FFB919176C85005BD9E9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FDF3FFBB19176C85005BD9E9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FDF3FFBD19176C85005BD9E9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FDF3FFC119176C85005BD9E9 /* CMPE277-IosLocationPlotter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CMPE277-IosLocationPlotter-Info.plist"; sourceTree = "<group>"; };
+		FDF3FFC319176C85005BD9E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FDF3FFC519176C85005BD9E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDF3FFC719176C85005BD9E9 /* CMPE277-IosLocationPlotter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CMPE277-IosLocationPlotter-Prefix.pch"; sourceTree = "<group>"; };
+		FDF3FFC819176C85005BD9E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FDF3FFC919176C85005BD9E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FDF3FFCC19176C85005BD9E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDF3FFCE19176C85005BD9E9 /* GeoCodeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeoCodeViewController.h; sourceTree = "<group>"; };
+		FDF3FFCF19176C85005BD9E9 /* GeoCodeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeoCodeViewController.m; sourceTree = "<group>"; };
+		FDF3FFD119176C85005BD9E9 /* LocationManagerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocationManagerViewController.h; sourceTree = "<group>"; };
+		FDF3FFD219176C85005BD9E9 /* LocationManagerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocationManagerViewController.m; sourceTree = "<group>"; };
+		FDF3FFD419176C85005BD9E9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FDF3FFDA19176C85005BD9E9 /* CMPE277-IosLocationPlotterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CMPE277-IosLocationPlotterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDF3FFDB19176C85005BD9E9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FDF3FFE319176C85005BD9E9 /* CMPE277-IosLocationPlotterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CMPE277-IosLocationPlotterTests-Info.plist"; sourceTree = "<group>"; };
+		FDF3FFE519176C85005BD9E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FDF3FFE719176C85005BD9E9 /* CMPE277_IosLocationPlotterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMPE277_IosLocationPlotterTests.m; sourceTree = "<group>"; };
+		FDF3FFF11917755D005BD9E9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		FDF3FFF319177565005BD9E9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FDF3FFF519177570005BD9E9 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		FDF3FFF619177570005BD9E9 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDF3FFB319176C85005BD9E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF3FFF719177570005BD9E9 /* AddressBook.framework in Frameworks */,
+				FDF3FFF819177570005BD9E9 /* AddressBookUI.framework in Frameworks */,
+				FDF3FFF419177565005BD9E9 /* CoreLocation.framework in Frameworks */,
+				FDF3FFF21917755D005BD9E9 /* MapKit.framework in Frameworks */,
+				FDF3FFBC19176C85005BD9E9 /* CoreGraphics.framework in Frameworks */,
+				FDF3FFBE19176C85005BD9E9 /* UIKit.framework in Frameworks */,
+				FDF3FFBA19176C85005BD9E9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDF3FFD719176C85005BD9E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF3FFDC19176C85005BD9E9 /* XCTest.framework in Frameworks */,
+				FDF3FFDE19176C85005BD9E9 /* UIKit.framework in Frameworks */,
+				FDF3FFDD19176C85005BD9E9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDF3FFAD19176C85005BD9E9 = {
+			isa = PBXGroup;
+			children = (
+				FDF3FFBF19176C85005BD9E9 /* CMPE277-IosLocationPlotter */,
+				FDF3FFE119176C85005BD9E9 /* CMPE277-IosLocationPlotterTests */,
+				FDF3FFB819176C85005BD9E9 /* Frameworks */,
+				FDF3FFB719176C85005BD9E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDF3FFB719176C85005BD9E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDF3FFB619176C85005BD9E9 /* CMPE277-IosLocationPlotter.app */,
+				FDF3FFDA19176C85005BD9E9 /* CMPE277-IosLocationPlotterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDF3FFB819176C85005BD9E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDF3FFF519177570005BD9E9 /* AddressBook.framework */,
+				FDF3FFF619177570005BD9E9 /* AddressBookUI.framework */,
+				FDF3FFF319177565005BD9E9 /* CoreLocation.framework */,
+				FDF3FFF11917755D005BD9E9 /* MapKit.framework */,
+				FDF3FFB919176C85005BD9E9 /* Foundation.framework */,
+				FDF3FFBB19176C85005BD9E9 /* CoreGraphics.framework */,
+				FDF3FFBD19176C85005BD9E9 /* UIKit.framework */,
+				FDF3FFDB19176C85005BD9E9 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDF3FFBF19176C85005BD9E9 /* CMPE277-IosLocationPlotter */ = {
+			isa = PBXGroup;
+			children = (
+				FDF3FFC819176C85005BD9E9 /* AppDelegate.h */,
+				FDF3FFC919176C85005BD9E9 /* AppDelegate.m */,
+				FDF3FFCB19176C85005BD9E9 /* Main.storyboard */,
+				FDF3FFCE19176C85005BD9E9 /* GeoCodeViewController.h */,
+				FDF3FFCF19176C85005BD9E9 /* GeoCodeViewController.m */,
+				FDF3FFD119176C85005BD9E9 /* LocationManagerViewController.h */,
+				FDF3FFD219176C85005BD9E9 /* LocationManagerViewController.m */,
+				FDF3FFD419176C85005BD9E9 /* Images.xcassets */,
+				FDF3FFC019176C85005BD9E9 /* Supporting Files */,
+			);
+			path = "CMPE277-IosLocationPlotter";
+			sourceTree = "<group>";
+		};
+		FDF3FFC019176C85005BD9E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDF3FFC119176C85005BD9E9 /* CMPE277-IosLocationPlotter-Info.plist */,
+				FDF3FFC219176C85005BD9E9 /* InfoPlist.strings */,
+				FDF3FFC519176C85005BD9E9 /* main.m */,
+				FDF3FFC719176C85005BD9E9 /* CMPE277-IosLocationPlotter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDF3FFE119176C85005BD9E9 /* CMPE277-IosLocationPlotterTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDF3FFE719176C85005BD9E9 /* CMPE277_IosLocationPlotterTests.m */,
+				FDF3FFE219176C85005BD9E9 /* Supporting Files */,
+			);
+			path = "CMPE277-IosLocationPlotterTests";
+			sourceTree = "<group>";
+		};
+		FDF3FFE219176C85005BD9E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDF3FFE319176C85005BD9E9 /* CMPE277-IosLocationPlotterTests-Info.plist */,
+				FDF3FFE419176C85005BD9E9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDF3FFB519176C85005BD9E9 /* CMPE277-IosLocationPlotter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDF3FFEB19176C85005BD9E9 /* Build configuration list for PBXNativeTarget "CMPE277-IosLocationPlotter" */;
+			buildPhases = (
+				FDF3FFB219176C85005BD9E9 /* Sources */,
+				FDF3FFB319176C85005BD9E9 /* Frameworks */,
+				FDF3FFB419176C85005BD9E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CMPE277-IosLocationPlotter";
+			productName = "CMPE277-IosLocationPlotter";
+			productReference = FDF3FFB619176C85005BD9E9 /* CMPE277-IosLocationPlotter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDF3FFD919176C85005BD9E9 /* CMPE277-IosLocationPlotterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDF3FFEE19176C85005BD9E9 /* Build configuration list for PBXNativeTarget "CMPE277-IosLocationPlotterTests" */;
+			buildPhases = (
+				FDF3FFD619176C85005BD9E9 /* Sources */,
+				FDF3FFD719176C85005BD9E9 /* Frameworks */,
+				FDF3FFD819176C85005BD9E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDF3FFE019176C85005BD9E9 /* PBXTargetDependency */,
+			);
+			name = "CMPE277-IosLocationPlotterTests";
+			productName = "CMPE277-IosLocationPlotterTests";
+			productReference = FDF3FFDA19176C85005BD9E9 /* CMPE277-IosLocationPlotterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDF3FFAE19176C85005BD9E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Scanadu, Inc";
+				TargetAttributes = {
+					FDF3FFD919176C85005BD9E9 = {
+						TestTargetID = FDF3FFB519176C85005BD9E9;
+					};
+				};
+			};
+			buildConfigurationList = FDF3FFB119176C85005BD9E9 /* Build configuration list for PBXProject "CMPE277-IosLocationPlotter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDF3FFAD19176C85005BD9E9;
+			productRefGroup = FDF3FFB719176C85005BD9E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDF3FFB519176C85005BD9E9 /* CMPE277-IosLocationPlotter */,
+				FDF3FFD919176C85005BD9E9 /* CMPE277-IosLocationPlotterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDF3FFB419176C85005BD9E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF3FFD519176C85005BD9E9 /* Images.xcassets in Resources */,
+				FDF3FFC419176C85005BD9E9 /* InfoPlist.strings in Resources */,
+				FDF3FFCD19176C85005BD9E9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDF3FFD819176C85005BD9E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF3FFE619176C85005BD9E9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDF3FFB219176C85005BD9E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF3FFD319176C85005BD9E9 /* LocationManagerViewController.m in Sources */,
+				FDF3FFCA19176C85005BD9E9 /* AppDelegate.m in Sources */,
+				FDF3FFD019176C85005BD9E9 /* GeoCodeViewController.m in Sources */,
+				FDF3FFC619176C85005BD9E9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDF3FFD619176C85005BD9E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF3FFE819176C85005BD9E9 /* CMPE277_IosLocationPlotterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDF3FFE019176C85005BD9E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDF3FFB519176C85005BD9E9 /* CMPE277-IosLocationPlotter */;
+			targetProxy = FDF3FFDF19176C85005BD9E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDF3FFC219176C85005BD9E9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDF3FFC319176C85005BD9E9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FDF3FFCB19176C85005BD9E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDF3FFCC19176C85005BD9E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDF3FFE419176C85005BD9E9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDF3FFE519176C85005BD9E9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDF3FFE919176C85005BD9E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FDF3FFEA19176C85005BD9E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDF3FFEC19176C85005BD9E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CMPE277-IosLocationPlotter/CMPE277-IosLocationPlotter-Prefix.pch";
+				INFOPLIST_FILE = "CMPE277-IosLocationPlotter/CMPE277-IosLocationPlotter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FDF3FFED19176C85005BD9E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CMPE277-IosLocationPlotter/CMPE277-IosLocationPlotter-Prefix.pch";
+				INFOPLIST_FILE = "CMPE277-IosLocationPlotter/CMPE277-IosLocationPlotter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FDF3FFEF19176C85005BD9E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CMPE277-IosLocationPlotter.app/CMPE277-IosLocationPlotter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CMPE277-IosLocationPlotter/CMPE277-IosLocationPlotter-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CMPE277-IosLocationPlotterTests/CMPE277-IosLocationPlotterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FDF3FFF019176C85005BD9E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CMPE277-IosLocationPlotter.app/CMPE277-IosLocationPlotter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CMPE277-IosLocationPlotter/CMPE277-IosLocationPlotter-Prefix.pch";
+				INFOPLIST_FILE = "CMPE277-IosLocationPlotterTests/CMPE277-IosLocationPlotterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDF3FFB119176C85005BD9E9 /* Build configuration list for PBXProject "CMPE277-IosLocationPlotter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDF3FFE919176C85005BD9E9 /* Debug */,
+				FDF3FFEA19176C85005BD9E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDF3FFEB19176C85005BD9E9 /* Build configuration list for PBXNativeTarget "CMPE277-IosLocationPlotter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDF3FFEC19176C85005BD9E9 /* Debug */,
+				FDF3FFED19176C85005BD9E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FDF3FFEE19176C85005BD9E9 /* Build configuration list for PBXNativeTarget "CMPE277-IosLocationPlotterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDF3FFEF19176C85005BD9E9 /* Debug */,
+				FDF3FFF019176C85005BD9E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDF3FFAE19176C85005BD9E9 /* Project object */;
+}
